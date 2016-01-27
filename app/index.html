@@ -2,47 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Find the best credit card deals with Compare
+  The Market">
   <link rel="stylesheet" href="main.css">
   <title>Credit Cards - Compare The Market</title>
 </head>
-<body>
-  <header>
 
-    <div class="logo">
-      <img src="images/ctm-logo.svg" alt="Compare The Market Logo">
-    </div>
-
-    <ul id="nav">
-      <li class="nav-item" id="home"><a href="/"><img src="images/menu-icons/house.svg"
-        alt="homepage-icon"></a></li>
-      <li class="nav-item"><a href="car"><img src="images/menu-icons/car.svg"
-        alt="car-icon">Vehicles</a></li>
-      <li class="nav-item"><a href="/home-and-pets"><img src="images/menu-icons/paw.svg"
-        alt="pet-icon">Home &amp; pet</a></li>
-      <li class="nav-item"><a href="/finances"><img src="images/menu-icons/credit-card.svg"
-        alt="house-finances-icon">Finances</a></li>
-      <li class="nav-item"><a href="/life"><img src="images/menu-icons/person-heart.svg"
-        alt="person-icon">Life</a></li>
-      <li class="nav-item"><a href="/business"><img src="images/menu-icons/letter.svg"
-        alt="business-icon">Business</a></li>
-      <li class="nav-item"><a href="/travel"><img src="images/menu-icons/plane.svg"
-        alt="plane-icon"> Travel</a></li>
-    </ul>
-  </header>
-
-  <section id="main">
-
-    <div class="card">
-      <div class="card-header">
-        <h2 class="card-header-name">{{card.name}}</h2>
-        <span class="card-header-apr">{{card.apr}}</span>
+<body ng-app="ctmApp">
+  <div class="container" ng-controller="MainCtrl as ctrl">
+    <header>
+      <div class="logo">
+        <img src="images/ctm-logo.svg" alt="Compare The Market Logo">
       </div>
-      <div class="card-body">
-        <div class="card-body-picture">{{card.url}}</div>
-        <p class="card-body-information">{{card.information}}</p>
-        <div class="card-body-price">{{card.price}}</div>
+      <nav>
+        <ul id="nav">
+          <li class="nav-item" id="home"><a href="/"><img src="images/menu-icons/house.svg"
+            alt="homepage-icon"></a></li>
+          <li class="nav-item"><a href="car"><img src="images/menu-icons/car.svg"
+            alt="car-icon">Vehicles</a></li>
+          <li class="nav-item"><a href="/home-and-pets"><img src="images/menu-icons/paw.svg"
+            alt="pet-icon">Home &amp; pet</a></li>
+          <li class="nav-item"><a href="/finances"><img src="images/menu-icons/credit-card.svg"
+            alt="house-finances-icon">Finances</a></li>
+          <li class="nav-item"><a href="/life"><img src="images/menu-icons/person-heart.svg"
+            alt="person-icon">Life</a></li>
+          <li class="nav-item"><a href="/business"><img src="images/menu-icons/letter.svg"
+            alt="business-icon">Business</a></li>
+          <li class="nav-item"><a href="/travel"><img src="images/menu-icons/plane.svg"
+            alt="plane-icon"> Travel</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="main">
+
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-header-name">{{card.name}}</h2>
+          <span class="card-header-apr">{{card.apr}}</span>
+        </div>
+        <div class="card-body">
+          <div class="card-body-picture">{{card.url}}</div>
+          <p class="card-body-information">{{card.information}}</p>
+          <div class="card-body-price">{{card.price}}</div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
+  <script src="../node_modules/angular/angular.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/controllers/main.js"></script>
 </body>
 </html>
