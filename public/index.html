@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="description" content="Find the best credit card deals with Compare
@@ -8,8 +9,10 @@
   <title>Credit Cards - Compare The Market</title>
 </head>
 
-<body ng-app="ctmApp">
+<body ng-app="app">
+  <!-- <body> -->
   <div class="container" ng-controller="MainCtrl as ctrl">
+
     <header>
       <div class="logo">
         <img src="images/ctm-logo.svg" alt="Compare The Market Logo">
@@ -35,22 +38,29 @@
     </header>
 
     <section id="main">
-
-      <div class="card">
-        <div class="card-header">
-          <h2 class="card-header-name">{{card.name}}</h2>
-          <span class="card-header-apr">{{card.apr}}</span>
-        </div>
-        <div class="card-body">
-          <div class="card-body-picture">{{card.url}}</div>
-          <p class="card-body-information">{{card.information}}</p>
-          <div class="card-body-price">{{card.price}}</div>
-        </div>
-      </div>
+      <ul class="list-cards">
+        <li class="card" ng-repeat="card in ctrl.cardList">
+          <div class="card-header">
+            <h2 class="card-header-name">{{ card.name }}</h2>
+            <span class="card-header-apr">{{ card.apr }}%APR</span>
+          </div>
+          <div class="card-body">
+            <div class="card-body-picture"><img ng-src="images/{{card.code}}.png" alt="">{{ card.url }}</div>
+            <p class="card-body-information">{{ card.information }}</p>
+            <div class="card-body-price">{{ card.price }}</div>
+          </div>
+        </li>
+      </ul>
     </section>
+
   </div>
-  <script src="../node_modules/angular/angular.js"></script>
+
+  <script
+src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.min.js"></script>
+  <!-- <script src="../node_modules/angular/angular-route.js"></script> -->
   <script src="scripts/app.js"></script>
   <script src="scripts/controllers/main.js"></script>
+  <script src="scripts/services/jsonFactory.js"></script>
+
 </body>
 </html>
