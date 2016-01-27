@@ -1,0 +1,16 @@
+
+    <section id="main">
+      <ul class="list-cards">
+        <li class="card" ng-repeat="card in ctrl.cardList">
+          <div class="card-header">
+            <h2 class="card-header-name">{{ card.name }}</h2>
+            <span class="card-header-apr">{{ card.apr }}%APR</span>
+          </div>
+          <div class="card-body">
+            <div class="card-body-picture"><img ng-src="images/{{card.code}}.png" alt="">{{ card.url }}</div>
+            <p class="card-body-information">{{ card.information }}</p>
+            <div class="card-body-price">£{{ card.cashback }}</div>
+          </div>
+        </li>
+      </ul>
+    </section>
