@@ -1,4 +1,6 @@
-@import 'colours';
+@import 'modules/colours';
+@import 'partials/header';
+@import 'partials/card';
 
 body {
   max-width: 960px;
@@ -16,80 +18,40 @@ a {
   font-size: 0.8em;
 }
 
-header {
-  .logo {
-    padding: 20px 10px 0px 10px;
-  }
-  img {
-    // padding-right: 10px;
+// header {
+//   .logo {
+//     padding: 20px 10px 0px 10px;
+//   }
+//   img {
+//     // padding-right: 10px;
 
-  }
-  ul#nav {
-    margin: 0 auto;
-    padding: 0px;
-    display: flex;
-    list-style: none;
-    width: 100%;
-    li.nav-item {
-      flex-grow: 10;
-      background: linear-gradient($gradient-lightest, $gradient-darkest);
-      padding: 0.5em;
-      text-align: center;
-      margin: 0.5%;
-      border-radius: 5px;
-      width: 50px;
-    }
-    li#home {
-      flex-grow: 0.5;
-      width:3%;
-      background-color: $menu-active;
-    }
-  }
-}
+//   }
+//   ul#nav {
+//     margin: 0 auto;
+//     padding: 0px;
+//     display: flex;
+//     list-style: none;
+//     width: 100%;
+//     li.nav-item {
+//       flex-grow: 10;
+//       background: linear-gradient($gradient-lightest, $gradient-darkest);
+//       padding: 0.5em;
+//       text-align: center;
+//       margin: 0.5%;
+//       border-radius: 5px;
+//       width: 50px;
+//     }
+//     li#home {
+//       flex-grow: 0.5;
+//       width:3%;
+//       background-color: $menu-active;
+//     }
+//   }
+// }
 
 #main {
 
 }
 .list-cards {
   padding: 0;
-}
-.card {
-  width: 100%;
-  list-style: none;
-  .card-header {
-    background: linear-gradient($gradient-lightest, $gradient-darkest);
-    height: 60px;
-    .card-header-name {
-      width: 80%;
-      float: left;
-    }
-    .card-header-apr {
-      line-height: 60px;
-    }
-  }
-  .card-body {
-    background-color: white;
-    color: black;
-    height: 150px; /* temporary */
-    padding: 1em;
-    .card-body-picture {
-      width: 20%;
-      background-color: green;
-      float: left;
-      height: 100%; /* temp */
-    }
-    .card-body-information {
-      background-color: red;
-      width: 50%;
-      float: left;
-      height: 100%; /* temp */
-      margin: 0;
-    }
-    .card-body-price {
-      background-color: pink;
-      width: 30%;
-      float: left;
-      height: 100%; /* temp */
-    }
-  }
 }

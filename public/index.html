@@ -47,7 +47,7 @@
           <div class="card-body">
             <div class="card-body-picture"><img ng-src="images/{{card.code}}.png" alt="">{{ card.url }}</div>
             <p class="card-body-information">{{ card.information }}</p>
-            <div class="card-body-price">{{ card.price }}</div>
+            <div class="card-body-price">£{{ card.cashback }}</div>
           </div>
         </li>
       </ul>
@@ -57,7 +57,6 @@
 
   <script
 src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.min.js"></script>
-  <!-- <script src="../node_modules/angular/angular-route.js"></script> -->
   <script src="scripts/app.js"></script>
   <script src="scripts/controllers/main.js"></script>
   <script src="scripts/services/jsonFactory.js"></script>

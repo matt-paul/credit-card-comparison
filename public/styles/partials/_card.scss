@@ -1,0 +1,38 @@
+.card {
+  width: 100%;
+  list-style: none;
+  .card-header {
+    background: linear-gradient($gradient-lightest, $gradient-darkest);
+    height: 60px;
+    .card-header-name {
+      width: 80%;
+      float: left;
+    }
+    .card-header-apr {
+      line-height: 60px;
+    }
+  }
+  .card-body {
+    background-color: white;
+    color: black;
+    height: 150px; /* temporary */
+    padding: 1em;
+    .card-body-picture {
+      width: 20%;
+      float: left;
+      height: 100%; /* temp */
+    }
+    .card-body-information {
+      width: 50%;
+      float: left;
+      height: 100%; /* temp */
+      margin: 0;
+    }
+    .card-body-price {
+      width: 30%;
+      float: left;
+      // color: black;
+      // height: 100%; /* temp */
+    }
+  }
+}
