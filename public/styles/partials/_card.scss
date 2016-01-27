@@ -7,16 +7,21 @@
     .card-header-name {
       width: 80%;
       float: left;
+      padding: 0 2%;
+      line-height: 60px;
+      font-size: 1.5em;
     }
     .card-header-apr {
       line-height: 60px;
+      font-size: 1.5em;
     }
   }
   .card-body {
     background-color: white;
     color: black;
-    height: 150px; /* temporary */
-    padding: 1em;
+    height: 120px; /* temporary */
+    padding: 2em;
+
     .card-body-picture {
       width: 20%;
       float: left;
@@ -28,11 +33,16 @@
       height: 100%; /* temp */
       margin: 0;
     }
-    .card-body-price {
+    .cash-container {
       width: 30%;
       float: left;
-      // color: black;
-      // height: 100%; /* temp */
+      text-align: center;
+      .card-body-price {
+        font-size: 2.5em;
+      }
+      .card-body-cashback {
+        font-size: 1.3em;
+      }
     }
   }
 }
