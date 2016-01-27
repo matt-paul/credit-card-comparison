@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="17px" viewBox="0 0 25 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Credit-card</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icons" sketch:type="MSLayerGroup" transform="translate(-303.000000, -1.000000)" fill="#FFFFFF">
+            <path d="M326.488,1.315 L304.764,1.315 C304.026,1.315 303.434,1.913 303.434,2.643 L303.434,4.607 L327.812,4.607 L327.812,2.643 C327.814,1.913 327.222,1.315 326.488,1.315 L326.488,1.315 Z M303.435,16.499 C303.435,17.231 304.027,17.832 304.765,17.832 L326.489,17.832 C327.224,17.832 327.815,17.231 327.815,16.499 L327.815,7.858 L303.437,7.858 L303.435,16.499 L303.435,16.499 L303.435,16.499 Z M310.566,13.285 L318.099,13.285 L318.099,13.724 L310.566,13.724 L310.566,13.285 L310.566,13.285 Z M306.13,13.285 L309.232,13.285 L309.232,13.724 L306.13,13.724 L306.13,13.285 L306.13,13.285 Z" id="Credit-card" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

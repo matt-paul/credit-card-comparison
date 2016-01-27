@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="21px" viewBox="0 0 25 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>House</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icons" sketch:type="MSLayerGroup" fill="#FFFFFF">
+            <path d="M3.591,10.419 L12.424,3.919 L21.257,10.085 L21.257,20.419 L14.424,20.419 L14.424,14.419 L10.424,14.419 L10.424,20.419 L3.591,20.419 L3.591,10.419 L3.591,10.419 Z M12.442,0 L6.258,4.529 L6.258,1.252 L2.591,1.252 L2.591,7.214 L0,9.113 L1.182,10.726 L12.407,2.505 L22.978,10.708 L24.205,9.128 L12.442,0 L12.442,0 Z" id="House" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

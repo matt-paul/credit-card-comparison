@@ -8,9 +8,21 @@ body {
   color: $white;
 }
 
+a {
+  color: $white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 0.8em;
+}
+
 header {
   .logo {
     padding: 20px 10px 0px 10px;
+  }
+  img {
+    // padding-right: 10px;
+
   }
   ul#nav {
     margin: 0 auto;
@@ -21,10 +33,11 @@ header {
     li.nav-item {
       flex-grow: 10;
       background: linear-gradient($gradient-lightest, $gradient-darkest);
-      padding: 1em;
+      padding: 0.5em;
+      text-align: center;
       margin: 0.5%;
       border-radius: 5px;
-      width: 30%;
+      width: 50px;
     }
     li#home {
       flex-grow: 0.5;
@@ -36,4 +49,11 @@ header {
 
 #main {
 
+}
+
+.card {
+  width: 100%;
+  .card-header {
+  background: linear-gradient($gradient-lightest, $gradient-darkest);
+  }
 }

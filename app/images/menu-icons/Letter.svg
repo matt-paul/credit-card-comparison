@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="17px" viewBox="0 0 23 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Letter</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icons" sketch:type="MSLayerGroup" transform="translate(-437.000000, -1.000000)" fill="#FFFFFF">
+            <path d="M437.813,5.236 L437.813,15.668 C437.813,16.702 438.658,17.548 439.69,17.548 L457.545,17.548 C458.578,17.548 459.424,16.702 459.424,15.668 L459.424,5.143 L448.618,12.236 L437.813,5.236 L437.813,5.236 Z M459.424,3.45 C459.424,2.417 458.578,1.57 457.545,1.57 L439.69,1.57 C438.658,1.57 437.813,2.417 437.813,3.45 L448.619,10.217 L459.424,3.45 L459.424,3.45 Z" id="Letter" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
