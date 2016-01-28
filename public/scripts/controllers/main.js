@@ -13,6 +13,8 @@
         });
       })();
 
+      self.toggleObject ={item: -1};
+
 
       }]);
 }());

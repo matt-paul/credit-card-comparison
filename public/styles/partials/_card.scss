@@ -3,17 +3,28 @@
   list-style: none;
   .card-header {
     background: linear-gradient($gradient-lightest, $gradient-darkest);
-    height: 60px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    .card-header-chevron {
+       float: left;
+       background-color: inherit;
+       border: none;
+      svg {
+        fill: $chevron;
+        background-color: inherit;
+        opacity: .5;
+      }
+    }
     .card-header-name {
-      width: 80%;
+      width: 75%;
       float: left;
       padding: 0 2%;
-      line-height: 60px;
-      font-size: 1.5em;
+      line-height: 50px;
+      font-size: 1.3em;
     }
     .card-header-apr {
-      line-height: 60px;
-      font-size: 1.5em;
+      line-height: 50px;
+      font-size: 1.3em;
     }
   }
   .card-body {
@@ -21,6 +32,8 @@
     color: black;
     height: 120px; /* temporary */
     padding: 2em;
+    margin-bottom: 1em;
+    border-radius: 0 0 10px 10px;
 
     .card-body-picture {
       width: 20%;
@@ -28,7 +41,7 @@
       height: 100%; /* temp */
     }
     .card-body-information {
-      width: 50%;
+      width: 45%;
       float: left;
       height: 100%; /* temp */
       margin: 0;
@@ -45,4 +58,9 @@
       }
     }
   }
+}
+
+.card-active {
+  color: green;
+  background-color: red;
 }

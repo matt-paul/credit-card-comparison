@@ -24,29 +24,40 @@ header ul#nav {
   list-style: none; }
   .card .card-header {
     background: linear-gradient(#19397C, #010338);
-    height: 60px; }
+    height: 50px;
+    border-radius: 10px 10px 0 0; }
+    .card .card-header .card-header-chevron {
+      float: left;
+      background-color: inherit;
+      border: none; }
+      .card .card-header .card-header-chevron svg {
+        fill: #38B332;
+        background-color: inherit;
+        opacity: .5; }
     .card .card-header .card-header-name {
-      width: 80%;
+      width: 75%;
       float: left;
       padding: 0 2%;
-      line-height: 60px;
-      font-size: 1.5em; }
+      line-height: 50px;
+      font-size: 1.3em; }
     .card .card-header .card-header-apr {
-      line-height: 60px;
-      font-size: 1.5em; }
+      line-height: 50px;
+      font-size: 1.3em; }
   .card .card-body {
     background-color: white;
     color: black;
     height: 120px;
     /* temporary */
-    padding: 2em; }
+    padding: 2em;
+    margin-bottom: 1em;
+    border-radius: 0 0 10px 10px; }
     .card .card-body .card-body-picture {
       width: 20%;
       float: left;
       height: 100%;
       /* temp */ }
     .card .card-body .card-body-information {
-      width: 50%;
+      width: 45%;
       float: left;
       height: 100%;
       /* temp */
@@ -59,6 +70,10 @@ header ul#nav {
         font-size: 2.5em; }
       .card .card-body .cash-container .card-body-cashback {
         font-size: 1.3em; }
+
+.card-active {
+  color: green;
+  background-color: red; }
 
 body {
   max-width: 960px;
