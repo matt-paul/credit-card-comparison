@@ -2,8 +2,10 @@ header {
   .logo {
     padding: 20px 10px 0px 10px;
   }
-  img {
-    // padding-right: 10px;
+  img.logo {
+    @media (min-width: 600px) and (max-width: 800px) {
+      width: 250px;
+    }
 
   }
   ul#nav {
@@ -16,6 +18,9 @@ header {
       flex-grow: 10;
       background: linear-gradient($gradient-lightest, $gradient-darkest);
       padding: 0.5em;
+      @media (min-width: 600px) and (max-width: 700px) {
+        padding: 0;
+      }
       text-align: center;
       margin: 0.5% 0.5% 2% 0.5%;
       border-radius: 5px;
@@ -29,9 +34,10 @@ header {
           margin: 0 auto;
         }
         line-height: 30px;
-        padding: 0.4em;
+        // padding: 0.4em;
+        // width: 100%;
       }
-      img {
+      img.nav-item-icon {
         @media (min-width:600px) and (max-width: 960px) {
           display: none;
         }
@@ -40,7 +46,6 @@ header {
     }
     li#home {
       flex-grow: 0.5;
-      width:3%;
       background: $black;
     }
   }

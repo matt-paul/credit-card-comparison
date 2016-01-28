@@ -17,22 +17,31 @@
         background-color: inherit;
       }
     }
+    span {
+      @media (max-width: 450px) {
+        font-size: 0.8em;
+      }
+      @media (min-width: 450px) and (max-width: 700px) {
+        font-size: 1em;
+      }
+      font-size: 1.3em;
+    }
     .card-header-name {
-      // @media (min-width: 800px) {
-        width: 75%;
-      // }
-      // @media (max-width: 799px) {
-        width: 50%;
-      // }
+      @media (max-width: 600px) {
+        width: 60%;
+      }
+      @media (min-width: 600px) and (max-width: 820px){
+        width: 65%;
+      }
       width: 75%;
       float: left;
       padding: 0 2%;
       line-height: 50px;
-      font-size: 1.3em;
+      // font-size: 1.3em;
     }
     .card-header-apr {
       line-height: 50px;
-      font-size: 1.3em;
+      // font-size: 1.3em;
     }
   }
   .card-body {

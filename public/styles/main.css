@@ -1,5 +1,8 @@
 header .logo {
   padding: 20px 10px 0px 10px; }
+@media (min-width: 600px) and (max-width: 800px) {
+  header img.logo {
+    width: 250px; } }
 header ul#nav {
   margin: 0 auto;
   padding: 0px;
@@ -15,21 +18,22 @@ header ul#nav {
     border-radius: 5px;
     width: 50px;
     height: 30px; }
+    @media (min-width: 600px) and (max-width: 700px) {
+      header ul#nav li.nav-item {
+        padding: 0; } }
   header ul#nav a span {
-    line-height: 30px;
-    padding: 0.4em; }
+    line-height: 30px; }
     @media (max-width: 600px) {
       header ul#nav a span {
         display: none;
         margin: 0 auto; } }
-  header ul#nav a img {
+  header ul#nav a img.nav-item-icon {
     margin-right: 10px; }
     @media (min-width: 600px) and (max-width: 960px) {
-      header ul#nav a img {
+      header ul#nav a img.nav-item-icon {
         display: none; } }
   header ul#nav li#home {
     flex-grow: 0.5;
-    width: 3%;
     background: black; }
 
 .card {
@@ -48,17 +52,27 @@ header ul#nav {
       .card .card-header .card-header-chevron svg {
         fill: #38B232;
         background-color: inherit; }
+    .card .card-header span {
+      font-size: 1.3em; }
+      @media (max-width: 450px) {
+        .card .card-header span {
+          font-size: 0.8em; } }
+      @media (min-width: 450px) and (max-width: 700px) {
+        .card .card-header span {
+          font-size: 1em; } }
     .card .card-header .card-header-name {
-      width: 75%;
-      width: 50%;
       width: 75%;
       float: left;
       padding: 0 2%;
-      line-height: 50px;
-      font-size: 1.3em; }
+      line-height: 50px; }
+      @media (max-width: 600px) {
+        .card .card-header .card-header-name {
+          width: 60%; } }
+      @media (min-width: 600px) and (max-width: 820px) {
+        .card .card-header .card-header-name {
+          width: 65%; } }
     .card .card-header .card-header-apr {
-      line-height: 50px;
-      font-size: 1.3em; }
+      line-height: 50px; }
   .card .card-body {
     background-color: #FFFFFF;
     color: black;
