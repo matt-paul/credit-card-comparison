@@ -11,30 +11,46 @@ header ul#nav {
     background: linear-gradient(#19397C, #010338);
     padding: 0.5em;
     text-align: center;
-    margin: 0.5%;
+    margin: 0.5% 0.5% 2% 0.5%;
     border-radius: 5px;
-    width: 50px; }
+    width: 50px;
+    height: 30px; }
+  header ul#nav a span {
+    line-height: 30px;
+    padding: 0.4em; }
+    @media (max-width: 600px) {
+      header ul#nav a span {
+        display: none;
+        margin: 0 auto; } }
+  header ul#nav a img {
+    margin-right: 10px; }
+    @media (min-width: 600px) and (max-width: 960px) {
+      header ul#nav a img {
+        display: none; } }
   header ul#nav li#home {
     flex-grow: 0.5;
     width: 3%;
-    background-color: #04132B; }
+    background: black; }
 
 .card {
   width: 100%;
   list-style: none; }
   .card .card-header {
     background: linear-gradient(#19397C, #010338);
-    height: 50px;
-    border-radius: 10px 10px 0 0; }
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 1em; }
     .card .card-header .card-header-chevron {
       float: left;
       background-color: inherit;
-      border: none; }
+      border: none;
+      margin: 1.0em; }
       .card .card-header .card-header-chevron svg {
-        fill: #38B332;
-        background-color: inherit;
-        opacity: .5; }
+        fill: #38B232;
+        background-color: inherit; }
     .card .card-header .card-header-name {
+      width: 75%;
+      width: 50%;
       width: 75%;
       float: left;
       padding: 0 2%;
@@ -44,12 +60,11 @@ header ul#nav {
       line-height: 50px;
       font-size: 1.3em; }
   .card .card-body {
-    background-color: white;
+    background-color: #FFFFFF;
     color: black;
     height: 120px;
     /* temporary */
     padding: 2em;
-    margin-bottom: 1em;
     border-radius: 0 0 10px 10px; }
     .card .card-body .card-body-picture {
       width: 20%;
@@ -71,9 +86,8 @@ header ul#nav {
       .card .card-body .cash-container .card-body-cashback {
         font-size: 1.3em; }
 
-.card-active {
-  color: green;
-  background-color: red; }
+.active {
+  background: red; }
 
 body {
   max-width: 960px;
@@ -81,6 +95,15 @@ body {
   margin: 0 auto;
   font-family: helvetica;
   color: #FFFFFF; }
+  @media (min-width: 600px) and (max-width: 700px) {
+    body {
+      width: 600px; } }
+  @media (min-width: 700px) and (max-width: 800px) {
+    body {
+      width: 700px; } }
+  @media (min-width: 800px) and (max-width: 960px) {
+    body {
+      width: 800px; } }
 
 a {
   color: #FFFFFF;

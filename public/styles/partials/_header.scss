@@ -17,14 +17,31 @@ header {
       background: linear-gradient($gradient-lightest, $gradient-darkest);
       padding: 0.5em;
       text-align: center;
-      margin: 0.5%;
+      margin: 0.5% 0.5% 2% 0.5%;
       border-radius: 5px;
       width: 50px;
+      height: 30px;
+    }
+    a {
+      span {
+        @media (max-width: 600px) {
+          display: none;
+          margin: 0 auto;
+        }
+        line-height: 30px;
+        padding: 0.4em;
+      }
+      img {
+        @media (min-width:600px) and (max-width: 960px) {
+          display: none;
+        }
+        margin-right: 10px;
+      }
     }
     li#home {
       flex-grow: 0.5;
       width:3%;
-      background-color: $menu-active;
+      background: $black;
     }
   }
 }

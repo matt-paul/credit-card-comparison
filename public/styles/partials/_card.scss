@@ -3,19 +3,27 @@
   list-style: none;
   .card-header {
     background: linear-gradient($gradient-lightest, $gradient-darkest);
-    height: 50px;
-    border-radius: 10px 10px 0 0;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    // padding: 2em;
+    margin-top: 1em;
     .card-header-chevron {
        float: left;
        background-color: inherit;
        border: none;
+       margin: 1.0em;
       svg {
         fill: $chevron;
         background-color: inherit;
-        opacity: .5;
       }
     }
     .card-header-name {
+      // @media (min-width: 800px) {
+        width: 75%;
+      // }
+      // @media (max-width: 799px) {
+        width: 50%;
+      // }
       width: 75%;
       float: left;
       padding: 0 2%;
@@ -28,11 +36,11 @@
     }
   }
   .card-body {
-    background-color: white;
-    color: black;
+    background-color: $white;
+    color: $black;
     height: 120px; /* temporary */
     padding: 2em;
-    margin-bottom: 1em;
+    // margin-bottom: 1em;
     border-radius: 0 0 10px 10px;
 
     .card-body-picture {
@@ -60,7 +68,12 @@
   }
 }
 
-.card-active {
-  color: green;
-  background-color: red;
+// .card-active {
+//   color: green;
+//   background-color: red;
+// }
+
+.active {
+  background: red;
 }
+
