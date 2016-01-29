@@ -1,4 +1,4 @@
-CTM front end tech test, using Angular, SASS, and Grunt.
+Matt Paul's CTM front end tech test, using Angular, SASS, and Grunt.
 
 
 1.Install dependencies
