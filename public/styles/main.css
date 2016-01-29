@@ -1,8 +1,11 @@
 header .logo {
   padding: 20px 10px 0px 10px; }
-@media (min-width: 600px) and (max-width: 800px) {
+@media (max-width: 500px) {
   header img.logo {
-    width: 250px; } }
+    width: 210px; } }
+@media (min-width: 500px) and (max-width: 700px) {
+  header img.logo {
+    width: 235px; } }
 header ul#nav {
   margin: 0 auto;
   padding: 0px;
@@ -108,13 +111,14 @@ header ul#nav {
       height: 100%;
       /* temp */
       margin: 0; }
-      @media (max-width: 450px) {
+      @media (max-width: 480px) {
         .card .card-body .card-body-information {
-          width: 35%; } }
-      @media (max-width: 600px) {
+          min-width: 150px;
+          font-size: 0.7em; } }
+      @media (min-width: 480px) and (max-width: 600px) {
         .card .card-body .card-body-information {
           font-size: 0.8em; } }
-      @media (max-width: 800px) {
+      @media (min-width: 550px) and (max-width: 800px) {
         .card .card-body .card-body-information {
           width: 40%; } }
     .card .card-body .cash-container {

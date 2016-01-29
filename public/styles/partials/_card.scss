@@ -41,7 +41,6 @@
     }
     .card-header-apr {
       line-height: 50px;
-      // font-size: 1.3em;
     }
   }
   .card-body {
@@ -77,13 +76,14 @@
       }
     }
     .card-body-information {
-      @media(max-width: 450px) {
-        width: 35%;
+      @media(max-width: 480px) {
+        min-width: 150px;
+        font-size: 0.7em;
       }
-      @media(max-width: 600px) {
+      @media(min-width: 480px) and (max-width: 600px) {
         font-size: 0.8em;
       }
-      @media(max-width: 800px) {
+      @media(min-width: 550px) and (max-width: 800px) {
         width: 40%;
       }
       width: 45%;
@@ -120,10 +120,6 @@
   }
 }
 
-// .card-active {
-//   color: green;
-//   background-color: red;
-// }
 
 .active {
   background: red;
