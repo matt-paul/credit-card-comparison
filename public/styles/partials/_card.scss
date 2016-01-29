@@ -47,30 +47,73 @@
   .card-body {
     background-color: $white;
     color: $black;
-    height: 120px; /* temporary */
+    @media (max-width: 600px) {
+      height: 90px;
+    }
+    height: 120px;
     padding: 2em;
-    // margin-bottom: 1em;
     border-radius: 0 0 10px 10px;
 
     .card-body-picture {
+        @media (max-width: 500px) {
+        width: 100px;
+        }
+        @media (min-width: 500px) and (max-width:600px) {
+        width: 130px;
+        }
+        @media (min-width: 600px) and (max-width: 800px) {
+        width: 180px;
+        }
       width: 20%;
       float: left;
       height: 100%; /* temp */
+      img {
+        @media (max-width: 500px) {
+          width: 80px;
+        }
+        @media (min-width: 500px) and (max-width: 600px) {
+          width: 100px;
+        }
+      }
     }
     .card-body-information {
+      @media(max-width: 450px) {
+        width: 35%;
+      }
+      @media(max-width: 600px) {
+        font-size: 0.8em;
+      }
+      @media(max-width: 800px) {
+        width: 40%;
+      }
       width: 45%;
       float: left;
       height: 100%; /* temp */
       margin: 0;
     }
     .cash-container {
+      @media (max-width: 800px) {
+        width: 20%;
+      }
       width: 30%;
       float: left;
       text-align: center;
       .card-body-price {
-        font-size: 2.5em;
+        @media (max-width: 800px) {
+          font-size: 1.8em;
+        }
+        @media (max-width: 600px) {
+          font-size: 1.3em;
+        }
+          font-size: 2.5em;
       }
       .card-body-cashback {
+      @media (max-width: 800px) {
+        font-size: 1em;
+      }
+      @media (max-width: 600px) {
+        font-size: 0.7em;
+      }
         font-size: 1.3em;
       }
     }
