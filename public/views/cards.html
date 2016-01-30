@@ -1,9 +1,9 @@
     <section id="main">
       <ul class="list-cards">
-        <li class="card" onclick="addActive()" ng-repeat="card in ctrl.cardList | orderBy: 'apr'">
-          <div class="card-header" >
-            <button class="card-header-chevron" ng-click="showDetails = !
-              showDetails">
+        <li class="card" ng-repeat="card in ctrl.cardList | orderBy: 'apr'">
+          <div class="card-header" ng-click="showDetails = !
+              showDetails" >
+            <button class="card-header-chevron">
 
            <svg class="arrow" x="0px" y="0px"
 	 width="20px" height="20px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -25,4 +25,5 @@
           </div>
         </li>
       </ul>
+
     </section>
