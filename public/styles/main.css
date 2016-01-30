@@ -81,7 +81,8 @@ header ul#nav {
     color: black;
     height: 120px;
     padding: 2em;
-    border-radius: 0 0 10px 10px; }
+    border-radius: 0 0 10px 10px;
+    display: none; }
     @media (max-width: 600px) {
       .card .card-body {
         height: 90px; } }
@@ -144,9 +145,6 @@ header ul#nav {
         @media (max-width: 600px) {
           .card .card-body .cash-container .card-body-cashback {
             font-size: 0.7em; } }
-
-.active {
-  background: red; }
 
 body {
   max-width: 960px;

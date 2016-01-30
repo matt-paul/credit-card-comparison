@@ -1,8 +1,9 @@
     <section id="main">
       <ul class="list-cards">
         <li class="card" ng-repeat="card in ctrl.cardList | orderBy: 'apr'">
-          <div class="card-header" ng-click="showDetails = !
-              showDetails" >
+          <div class="card-header" >
+          <!-- <div class="card-header" ng-click="showDetails = ! -->
+              <!-- showDetails" > -->
             <button class="card-header-chevron">
 
            <svg class="arrow" x="0px" y="0px"
@@ -15,7 +16,8 @@
             <span class="card-header-name"><b>{{ card.name }}</b></span>
             <span class="card-header-apr"><b>{{ card.apr }}% APR</b></span>
           </div>
-          <div class="card-body" ng-show="showDetails">
+          <div class="card-body">
+          <!-- <div class="card-body" ng-show="showDetails"> -->
             <div class="card-body-picture"><img ng-src="images/{{card.code}}.png" alt="">{{ card.url }}</div>
             <p class="card-body-information">{{ card.information }}</p>
             <div class="cash-container">

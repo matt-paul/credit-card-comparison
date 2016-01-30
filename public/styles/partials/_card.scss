@@ -52,6 +52,7 @@
     height: 120px;
     padding: 2em;
     border-radius: 0 0 10px 10px;
+    display: none;
 
     .card-body-picture {
         @media (max-width: 500px) {
@@ -121,7 +122,7 @@
 }
 
 
-.active {
-  background: red;
-}
+// .active {
+  // background: red;
+// }
 
