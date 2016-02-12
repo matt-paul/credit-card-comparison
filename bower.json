@@ -1,0 +1,18 @@
+{
+  "name": "ctm",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Matt Paul <mattpaul001@icloud.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/matt-paul/credit-card-comparison",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

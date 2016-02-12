@@ -1,14 +1,22 @@
 describe('MainCtrl', function() {
-  beforeEach(module('ctmApp'));
 
+  var httpBackend;
   var ctrl;
 
-  beforeEach(inject(function($controller) {
-    ctrl = $controller('MainCtrl');
+  beforeEach(module('app'));
+
+  describe('Main Controller', function() {
+
+    beforeEach(inject(function($controller, $injector, $httpBackend) {
+      ctrl = $controller('MainCtrl');
+      httpBackend = $httpBackend;
+      httpBackend.expectGET('cards.json').respond(mockCards);
     }));
 
+    it('should pull the cards in from the factory', function() {
+      httpBackend.flush();
+      expect(ctrl.cardList).toEqual(mockCards);
+    });
 
-    it('initialises some stuff somewhere', function() {
-      expect(ctrl.data).toEqual([]);
-    })
+  });
 });
