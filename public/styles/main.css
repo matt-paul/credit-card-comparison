@@ -81,8 +81,7 @@ header ul#nav {
     color: black;
     height: 120px;
     padding: 2em;
-    border-radius: 0 0 10px 10px;
-    display: none; }
+    border-radius: 0 0 10px 10px; }
     @media (max-width: 600px) {
       .card .card-body {
         height: 90px; } }

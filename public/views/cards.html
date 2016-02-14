@@ -22,7 +22,7 @@
             <span class="card-header-name"><b>{{ card.name }}</b></span>
             <span class="card-header-apr"><b>{{ card.apr }}% APR</b></span>
           </div>
-          <div class="card-body">
+          <div class="card-body" ng-show="ctrl.currentCard == card">
             <div class="card-body-picture"><img ng-src="images/{{card.code}}.png" alt="">{{ card.url }}</div>
             <p class="card-body-information">{{ card.information }}</p>
             <div class="cash-container">
