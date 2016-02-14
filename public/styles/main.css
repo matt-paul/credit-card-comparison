@@ -1,11 +1,5 @@
 header .logo {
   padding: 20px 10px 0px 10px; }
-@media (max-width: 500px) {
-  header img.logo {
-    width: 210px; } }
-@media (min-width: 500px) and (max-width: 700px) {
-  header img.logo {
-    width: 235px; } }
 header ul#nav {
   margin: 0 auto;
   padding: 0px;
@@ -21,20 +15,10 @@ header ul#nav {
     border-radius: 5px;
     width: 50px;
     height: 30px; }
-    @media (min-width: 600px) and (max-width: 700px) {
-      header ul#nav li.nav-item {
-        padding: 0; } }
   header ul#nav a span {
     line-height: 30px; }
-    @media (max-width: 600px) {
-      header ul#nav a span {
-        display: none;
-        margin: 0 auto; } }
   header ul#nav a img.nav-item-icon {
     margin-right: 10px; }
-    @media (min-width: 600px) and (max-width: 960px) {
-      header ul#nav a img.nav-item-icon {
-        display: none; } }
   header ul#nav li#home {
     flex-grow: 0.5;
     background: black; }
@@ -57,23 +41,11 @@ header ul#nav {
         background-color: inherit; }
     .card .card-header span {
       font-size: 1.3em; }
-      @media (max-width: 450px) {
-        .card .card-header span {
-          font-size: 0.8em; } }
-      @media (min-width: 450px) and (max-width: 700px) {
-        .card .card-header span {
-          font-size: 1em; } }
     .card .card-header .card-header-name {
       width: 75%;
       float: left;
       padding: 0 2%;
       line-height: 50px; }
-      @media (max-width: 600px) {
-        .card .card-header .card-header-name {
-          width: 60%; } }
-      @media (min-width: 600px) and (max-width: 820px) {
-        .card .card-header .card-header-name {
-          width: 65%; } }
     .card .card-header .card-header-apr {
       line-height: 50px; }
   .card .card-body {
@@ -82,23 +54,11 @@ header ul#nav {
     height: 120px;
     padding: 2em;
     border-radius: 0 0 10px 10px; }
-    @media (max-width: 600px) {
-      .card .card-body {
-        height: 90px; } }
     .card .card-body .card-body-picture {
       width: 20%;
       float: left;
       height: 100%;
       /* temp */ }
-      @media (max-width: 500px) {
-        .card .card-body .card-body-picture {
-          width: 100px; } }
-      @media (min-width: 500px) and (max-width: 600px) {
-        .card .card-body .card-body-picture {
-          width: 130px; } }
-      @media (min-width: 600px) and (max-width: 800px) {
-        .card .card-body .card-body-picture {
-          width: 180px; } }
       @media (max-width: 500px) {
         .card .card-body .card-body-picture img {
           width: 80px; } }
@@ -151,15 +111,6 @@ body {
   margin: 0 auto;
   font-family: helvetica;
   color: #FFFFFF; }
-  @media (min-width: 600px) and (max-width: 700px) {
-    body {
-      width: 600px; } }
-  @media (min-width: 700px) and (max-width: 800px) {
-    body {
-      width: 700px; } }
-  @media (min-width: 800px) and (max-width: 960px) {
-    body {
-      width: 800px; } }
 
 a {
   color: #FFFFFF;
