@@ -1,12 +1,14 @@
 .card {
   width: 100%;
   list-style: none;
+
   .card-header {
     background: linear-gradient($gradient-lightest, $gradient-darkest);
     height: 60px;
     border-radius: 10px 10px 10px 10px;
     // padding: 2em;
     margin-top: 1em;
+
     .card-header-chevron {
        float: left;
        background-color: inherit;
@@ -26,6 +28,8 @@
       }
       font-size: 1.3em;
     }
+
+
     .card-header-name {
       @media (max-width: 600px) {
         width: 60%;
@@ -39,10 +43,12 @@
       line-height: 50px;
       // font-size: 1.3em;
     }
+
     .card-header-apr {
       line-height: 50px;
     }
   }
+
   .card-body {
     background-color: $white;
     color: $black;
@@ -76,6 +82,7 @@
         }
       }
     }
+
     .card-body-information {
       @media(max-width: 480px) {
         min-width: 150px;
@@ -92,6 +99,7 @@
       height: 100%; /* temp */
       margin: 0;
     }
+
     .cash-container {
       @media (max-width: 800px) {
         width: 20%;
@@ -99,6 +107,7 @@
       width: 30%;
       float: left;
       text-align: center;
+
       .card-body-price {
         @media (max-width: 800px) {
           font-size: 1.8em;
@@ -108,6 +117,7 @@
         }
           font-size: 2.5em;
       }
+
       .card-body-cashback {
       @media (max-width: 800px) {
         font-size: 1em;
@@ -120,9 +130,4 @@
     }
   }
 }
-
-
-// .active {
-  // background: red;
-// }
 

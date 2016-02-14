@@ -18,6 +18,10 @@
 
       self.toggleObject ={item: -1};
 
+      self.viewDetails = function(card) {
+        self.currentCard = card;
+      }
+
       //where will the filter go ?
       //
       self.bestRate = function () {
