@@ -1,25 +1,52 @@
-header .logo {
-  padding: 20px 10px 0px 10px; }
-header ul#nav {
+header .mobile-header {
+  padding: 20px 10px 0px 10px;
+  background: black; }
+  header .mobile-header img {
+    width: 70%;
+    display: inline; }
+  header .mobile-header svg {
+    fill: white; }
+header ul {
+  list-style: none;
+  width: 100%;
   margin: 0 auto;
   padding: 0px;
   display: flex;
-  list-style: none;
   width: 100%; }
-  header ul#nav li.nav-item {
+  header ul a {
+    padding-bottom: 0; }
+    header ul a li {
+      flex-grow: 10;
+      padding: 0.5em;
+      height: 30px;
+      text-align: left; }
+      header ul a li span {
+        margin-left: 1em; }
+
+@media (min-width: 774px) {
+  .burger-menu {
+    visibility: hidden; } }
+.burger-menu .burger-nav {
+  flex-direction: column; }
+  .burger-menu .burger-nav .burger-item {
+    border-bottom: 1px solid black; }
+
+.horizontal-menu {
+  visibility: hidden; }
+  @media (min-width: 775px) {
+    .horizontal-menu {
+      visibility: visible; } }
+  .horizontal-menu .nav-item {
     flex-grow: 10;
-    background: linear-gradient(#19397C, #010338);
-    padding: 0.5em;
     text-align: center;
-    margin: 0.5% 0.5% 2% 0.5%;
     border-radius: 5px;
     width: 50px;
-    height: 30px; }
-  header ul#nav a span {
+    background: linear-gradient(#19397C, #010338); }
+  .horizontal-menu a span {
     line-height: 30px; }
-  header ul#nav a img.nav-item-icon {
+  .horizontal-menu a img.nav-item-icon {
     margin-right: 10px; }
-  header ul#nav li#home {
+  .horizontal-menu li#home {
     flex-grow: 0.5;
     background: black; }
 
@@ -28,26 +55,25 @@ header ul#nav {
   list-style: none; }
   .card .card-header {
     background: linear-gradient(#19397C, #010338);
-    height: 60px;
+    height: 120px;
     border-radius: 10px 10px 10px 10px;
-    margin-top: 1em; }
+    margin-top: 1em;
+    line-height: 120px;
+    font-size: 2em; }
     .card .card-header .card-header-chevron {
       float: left;
       background-color: inherit;
       border: none;
-      margin: 1.0em; }
+      margin: 2.0em; }
       .card .card-header .card-header-chevron svg {
         fill: #38B232;
-        background-color: inherit; }
-    .card .card-header span {
-      font-size: 1.3em; }
+        background-color: inherit;
+        height: 60px;
+        width: 60px; }
     .card .card-header .card-header-name {
-      width: 75%;
+      width: 60%;
       float: left;
-      padding: 0 2%;
-      line-height: 50px; }
-    .card .card-header .card-header-apr {
-      line-height: 50px; }
+      padding: 0 2%; }
   .card .card-body {
     background-color: #FFFFFF;
     color: black;
@@ -57,53 +83,19 @@ header ul#nav {
     .card .card-body .card-body-picture {
       width: 20%;
       float: left;
-      height: 100%;
-      /* temp */ }
-      @media (max-width: 500px) {
-        .card .card-body .card-body-picture img {
-          width: 80px; } }
-      @media (min-width: 500px) and (max-width: 600px) {
-        .card .card-body .card-body-picture img {
-          width: 100px; } }
+      height: 100%; }
     .card .card-body .card-body-information {
       width: 45%;
       float: left;
       height: 100%;
       /* temp */
       margin: 0; }
-      @media (max-width: 480px) {
-        .card .card-body .card-body-information {
-          min-width: 150px;
-          font-size: 0.7em; } }
-      @media (min-width: 480px) and (max-width: 600px) {
-        .card .card-body .card-body-information {
-          font-size: 0.8em; } }
-      @media (min-width: 550px) and (max-width: 800px) {
-        .card .card-body .card-body-information {
-          width: 40%; } }
     .card .card-body .cash-container {
       width: 30%;
       float: left;
       text-align: center; }
-      @media (max-width: 800px) {
-        .card .card-body .cash-container {
-          width: 20%; } }
-      .card .card-body .cash-container .card-body-price {
-        font-size: 2.5em; }
-        @media (max-width: 800px) {
-          .card .card-body .cash-container .card-body-price {
-            font-size: 1.8em; } }
-        @media (max-width: 600px) {
-          .card .card-body .cash-container .card-body-price {
-            font-size: 1.3em; } }
-      .card .card-body .cash-container .card-body-cashback {
+      .card .card-body .cash-container .card-body-price .card-body-cashback {
         font-size: 1.3em; }
-        @media (max-width: 800px) {
-          .card .card-body .cash-container .card-body-cashback {
-            font-size: 1em; } }
-        @media (max-width: 600px) {
-          .card .card-body .cash-container .card-body-cashback {
-            font-size: 0.7em; } }
 
 body {
   max-width: 960px;

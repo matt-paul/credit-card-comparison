@@ -1,37 +1,101 @@
-    <header>
-      <div class="logo">
+<header>
+      <div class="mobile-header">
+        <div class="burger">
+          <svg ng-click="ctrl.showBurger=!ctrl.showBurger"xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512"><path d="M96 241h320v32H96zM96 145h320v32H96zM96 337h320v32H96z"/></svg>
+        <!-- </div> -->
         <img class="logo" src="images/ctm-logo.svg" alt="Compare The Market Logo">
       </div>
-      <nav>
-        <ul id="nav">
-          <li class="nav-item" id="home">
-            <a href="/"><img src="images/menu-icons/house.svg" alt="homepage-icon"></a>
+      </div>
+
+<!-- Burger Menu for Mobile -->
+<nav class="burger-menu" ng-show="ctrl.showBurger == true">
+
+      <ul class="burger-nav">
+        <a href="/">
+          <li class="burger-item" id="home">
+            <img src="images/menu-icons/house.svg" alt="homepage-icon">
           </li>
-          <li class="nav-item">
-            <a href="car"><img class="nav-item-icon" src="images/menu-icons/car.svg"
-                               alt="car-icon"><span>Vehicles</span></a>
+        </a>
+
+        <a href="car">
+          <li class="burger-item">
+           <img class="nav-item-icon" src="images/menu-icons/car.svg" alt="car-icon">
+           <span>Vehicles</span>
           </li>
-          <li class="nav-item">
-            <a href="/home-and-pets"><img class="nav-item-icon" src="images/menu-icons/paw.svg"
-                                          alt="pet-icon"><span>Home &amp;
-                                            pet</span></a>
+        </a>
+
+        <a href="/home-and-pets">
+          <li class="burger-item">
+           <img class="nav-item-icon" src="images/menu-icons/paw.svg" alt="pet-icon">
+           <span>Home &amp; pet</span>
           </li>
-          <li class="nav-item">
-            <a href="/finances"><img class="nav-item-icon" src="images/menu-icons/credit-card.svg"
-                                     alt="house-finances-icon"><span>Finances</span></a>
+        </a>
+
+        <a href="/finances">
+          <li class="burger-item">
+            <img class="nav-item-icon" src="images/menu-icons/credit-card.svg" alt="house-finances-icon">
+            <span>Finances</span>
           </li>
-          <li class="nav-item">
-            <a href="/life"><img class="nav-item-icon" src="images/menu-icons/person-heart.svg"
-                                 alt="person-icon"><span>Life</span></a>
+        </a>
+
+        <a href="/life">
+          <li class="burger-item">
+          <img class="nav-item-icon" src="images/menu-icons/person-heart.svg" alt="person-icon">
+          <span>Life</span>
           </li>
-          <li class="nav-item">
-            <a href="/business"><img  class="nav-item-icon" src="images/menu-icons/letter.svg"
-                                     alt="business-icon"><span>Business</span></a>
+        </a>
+
+        <a href="/business">
+          <li class="burger-item">
+            <img  class="nav-item-icon" src="images/menu-icons/letter.svg" alt="business-icon">
+            <span>Business</span>
           </li>
-          <li class="nav-item">
-            <a href="/travel"><img  class="nav-item-icon" src="images/menu-icons/plane.svg"
-                                   alt="plane-icon"><span>Travel</span></a>
+        </a>
+
+        <a href="/travel">
+          <li class="burger-item">
+            <img  class="nav-item-icon" src="images/menu-icons/plane.svg" alt="plane-icon">
+            <span>Travel</span>
           </li>
-        </ul>
-      </nav>
-    </header>
+        </a>
+      </ul>
+
+</nav>
+
+
+<!-- Horiontal header menu -->
+
+    <nav class="horizontal-menu">
+      <ul id="nav">
+        <li class="nav-item" id="home">
+          <a href="/"><img src="images/menu-icons/house.svg" alt="homepage-icon"></a>
+        </li>
+        <li class="nav-item">
+          <a href="car"><img class="nav-item-icon" src="images/menu-icons/car.svg"
+                              alt="car-icon"><span>Vehicles</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="/home-and-pets"><img class="nav-item-icon" src="images/menu-icons/paw.svg"
+                                        alt="pet-icon"><span>Home &amp;
+                                          pet</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="/finances"><img class="nav-item-icon" src="images/menu-icons/credit-card.svg"
+                                    alt="house-finances-icon"><span>Finances</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="/life"><img class="nav-item-icon" src="images/menu-icons/person-heart.svg"
+                                alt="person-icon"><span>Life</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="/business"><img  class="nav-item-icon" src="images/menu-icons/letter.svg"
+                                    alt="business-icon"><span>Business</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="/travel"><img  class="nav-item-icon" src="images/menu-icons/plane.svg"
+                                  alt="plane-icon"><span>Travel</span></a>
+        </li>
+      </ul>
+    </nav>
+
+</header>
