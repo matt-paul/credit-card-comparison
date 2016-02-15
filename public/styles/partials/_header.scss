@@ -22,10 +22,10 @@ header {
       li {
         flex-grow: 10;
         padding: 0.5em;
-        // margin: 0.5% 0.5% 2% 0.5%;
         height: 30px;
         text-align: left;
         span {
+          line-height: 30px;
           margin-left: 1em;
         }
       }
@@ -58,18 +58,12 @@ header {
       width: 50px;
         background: linear-gradient($gradient-lightest, $gradient-darkest);
     }
-  a {
-      span {
-        line-height: 30px;
-      }
-      img.nav-item-icon {
+      .nav-item-icon {
         margin-right: 10px;
       }
-    }
-    li#home {
+    #home {
       flex-grow: 0.5;
       background: $black;
     }
-
 }
 

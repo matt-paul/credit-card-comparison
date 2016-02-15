@@ -21,6 +21,7 @@ header ul {
       height: 30px;
       text-align: left; }
       header ul a li span {
+        line-height: 30px;
         margin-left: 1em; }
 
 @media (min-width: 774px) {
@@ -42,11 +43,9 @@ header ul {
     border-radius: 5px;
     width: 50px;
     background: linear-gradient(#19397C, #010338); }
-  .horizontal-menu a span {
-    line-height: 30px; }
-  .horizontal-menu a img.nav-item-icon {
+  .horizontal-menu .nav-item-icon {
     margin-right: 10px; }
-  .horizontal-menu li#home {
+  .horizontal-menu #home {
     flex-grow: 0.5;
     background: black; }
 
