@@ -1,69 +1,90 @@
-.card {
-  width: 100%;
-  list-style: none;
+.list-cards {
+  padding: 0;
 
-  .card-header {
-    background: linear-gradient($gradient-lightest, $gradient-darkest);
-    height: 120px;
-    border-radius: 10px 10px 10px 10px;
-    margin-top: 1em;
-    line-height: 120px;
-    font-size: 2em;
+  .card {
+    width: 100%;
+    list-style: none;
 
-    .card-header-chevron {
-       float: left;
-       background-color: inherit;
-       border: none;
-       margin: 2.0em;
-      svg {
-        fill: $chevron;
-        background-color: inherit;
-        height: 60px;
-        width: 60px;
-      }
-    }
-    .card-header-name {
-      width: 60%;
-      float: left;
-      padding: 0 2%;
-    }
-  }
-
-  .card-body {
-    background-color: $white;
-    color: $black;
-    height: 120px;
-    padding: 2em;
-    border-radius: 0 0 10px 10px;
-
-    .card-body-picture {
-      width: 20%;
-      float: left;
-      height: 100%; 
-      img {
-      }
-    }
-
-    .card-body-information {
-      width: 45%;
-      float: left;
-      height: 100%; /* temp */
-      margin: 0;
-    }
-
-    .cash-container {
-      width: 30%;
-      float: left;
+    .card-header {
+      background: linear-gradient($gradient-lightest, $gradient-darkest);
+      height: 60px;
+      border-radius: 10px 10px 10px 10px;
+      margin-top: 1em;
+      line-height: 60px;
       text-align: center;
 
-      .card-body-price {
+      svg {
+          fill: $chevron;
+          height: 30px;
+          float: left;
+          margin: 13px;
+      }
 
-      .card-body-cashback {
-      font-size: 1.3em;
+      .card-header-name {
+        width: 50%;
+        float: left;
+        padding: 0 1%;
+      }
+    }
 
+    .card-body {
+      background-color: $white;
+      color: $black;
+      height: 120px;
+      padding: 2em;
+      border-radius: 0 0 10px 10px;
+
+      .card-picture {
+        width: 50px;
+        @media(min-width: $ipad-width) {
+          width: 120px;
+        }
+      }
+
+      .card-body-picture {
+        width: 20%;
+        float: left;
+        height: 100%;
+        img {
+        }
+      }
+
+      .card-body-information {
+        width: 75%;
+        float: left;
+        height: 100%;
+        margin: 0;
+        font-size: .8em;
+        @media(min-width: $ipad-width) {
+          width: 45%;
+          font-size: 1em;
+          margin-right: 70px;
+        }
+      }
+
+      .cash-container {
+        width: 100%;
+        float: left;
+        text-align: center;
+        @media(min-width: $ipad-width) {
+          width: 15%;
+        }
+        @media(min-width: $desktop-width) {
+          width: 10%;
+        }
+
+        .card-body-price {
+          display:inline-block;
+          @media(min-width: $ipad-width) {
+            display: inline;
+          }
+
+        .card-body-cashback {
+        font-size: 1.3em;
+
+        }
       }
     }
   }
+  }
 }
-}
-

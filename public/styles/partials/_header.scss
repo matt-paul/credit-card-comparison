@@ -1,13 +1,22 @@
 header {
   .mobile-header {
     padding: 20px 10px 0px 10px;
-    background: black;
+    background: $black;
+    @media(min-width: $ipad-width) {
+      background: $background-main;
+    }
     img {
       width: 70%;
+      @media(min-width: $ipad-width) {
+        width: 50%;
+      }
       display: inline;
     }
     svg {
       fill: white;
+      @media(min-width: $ipad-width) {
+        visibility: hidden;
+      }
     }
   }
   ul {
@@ -19,6 +28,9 @@ header {
     width: 100%;
     a {
       padding-bottom: 0;
+      @media(min-width: $ipad-width) {
+        line-height: 50px;
+      }
       li {
         flex-grow: 10;
         padding: 0.5em;
@@ -35,7 +47,7 @@ header {
 
 
 .burger-menu {
-  @media(min-width: 774px) {
+  @media(min-width: $ipad-width) {
     visibility: hidden;
   }
   .burger-nav {
@@ -48,15 +60,18 @@ header {
 
 .horizontal-menu {
   visibility: hidden;
-  @media(min-width: 775px) {
+  @media(min-width: $ipad-width) {
     visibility: visible;
   }
   .nav-item {
       flex-grow: 10;
       text-align: center;
-      border-radius: 5px;
+      // border-radius: 5px;
       width: 50px;
-        background: linear-gradient($gradient-lightest, $gradient-darkest);
+      background: linear-gradient($gradient-lightest, $gradient-darkest);
+      @media(min-width: $ipad-width) {
+        padding: 10px 0;
+      }
     }
       .nav-item-icon {
         margin-right: 10px;

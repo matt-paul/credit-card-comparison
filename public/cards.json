@@ -1,14 +1,14 @@
 [
 	{
 		"code":"CARD_274",
-		"name":"Barclaycard Platinum Credit Card",
+		"name":"Barclaycard Credit Card",
 		"apr":22.9,
 		"cashback":120.00,
 		"information":"5% cashback during your first 3 months up to £2,000 in purchases (T&C's Apply)."
 	},
 	{
 		"code":"CARD_822",
-		"name":"Virgin Money Credit Card",
+		"name":"Virgin Credit Card",
 		"apr":28.2,
 		"cashback":106.25,
 		"information":"5% cashback in first 3 months up to £125 (on the first £2,500 of purchases). After the first three months ongoing cashback is paid at 1.25%."

@@ -1,11 +1,20 @@
 header .mobile-header {
   padding: 20px 10px 0px 10px;
   background: black; }
+  @media (min-width: 768px) {
+    header .mobile-header {
+      background: #1E488C; } }
   header .mobile-header img {
     width: 70%;
     display: inline; }
+    @media (min-width: 768px) {
+      header .mobile-header img {
+        width: 50%; } }
   header .mobile-header svg {
     fill: white; }
+    @media (min-width: 768px) {
+      header .mobile-header svg {
+        visibility: hidden; } }
 header ul {
   list-style: none;
   width: 100%;
@@ -15,6 +24,9 @@ header ul {
   width: 100%; }
   header ul a {
     padding-bottom: 0; }
+    @media (min-width: 768px) {
+      header ul a {
+        line-height: 50px; } }
     header ul a li {
       flex-grow: 10;
       padding: 0.5em;
@@ -24,7 +36,7 @@ header ul {
         line-height: 30px;
         margin-left: 1em; }
 
-@media (min-width: 774px) {
+@media (min-width: 768px) {
   .burger-menu {
     visibility: hidden; } }
 .burger-menu .burger-nav {
@@ -34,67 +46,87 @@ header ul {
 
 .horizontal-menu {
   visibility: hidden; }
-  @media (min-width: 775px) {
+  @media (min-width: 768px) {
     .horizontal-menu {
       visibility: visible; } }
   .horizontal-menu .nav-item {
     flex-grow: 10;
     text-align: center;
-    border-radius: 5px;
     width: 50px;
     background: linear-gradient(#19397C, #010338); }
+    @media (min-width: 768px) {
+      .horizontal-menu .nav-item {
+        padding: 10px 0; } }
   .horizontal-menu .nav-item-icon {
     margin-right: 10px; }
   .horizontal-menu #home {
     flex-grow: 0.5;
     background: black; }
 
-.card {
-  width: 100%;
-  list-style: none; }
-  .card .card-header {
-    background: linear-gradient(#19397C, #010338);
-    height: 120px;
-    border-radius: 10px 10px 10px 10px;
-    margin-top: 1em;
-    line-height: 120px;
-    font-size: 2em; }
-    .card .card-header .card-header-chevron {
-      float: left;
-      background-color: inherit;
-      border: none;
-      margin: 2.0em; }
-      .card .card-header .card-header-chevron svg {
-        fill: #38B232;
-        background-color: inherit;
-        height: 60px;
-        width: 60px; }
-    .card .card-header .card-header-name {
-      width: 60%;
-      float: left;
-      padding: 0 2%; }
-  .card .card-body {
-    background-color: #FFFFFF;
-    color: black;
-    height: 120px;
-    padding: 2em;
-    border-radius: 0 0 10px 10px; }
-    .card .card-body .card-body-picture {
-      width: 20%;
-      float: left;
-      height: 100%; }
-    .card .card-body .card-body-information {
-      width: 45%;
-      float: left;
-      height: 100%;
-      /* temp */
-      margin: 0; }
-    .card .card-body .cash-container {
-      width: 30%;
-      float: left;
+.list-cards {
+  padding: 0; }
+  .list-cards .card {
+    width: 100%;
+    list-style: none; }
+    .list-cards .card .card-header {
+      background: linear-gradient(#19397C, #010338);
+      height: 60px;
+      border-radius: 10px 10px 10px 10px;
+      margin-top: 1em;
+      line-height: 60px;
       text-align: center; }
-      .card .card-body .cash-container .card-body-price .card-body-cashback {
-        font-size: 1.3em; }
+      .list-cards .card .card-header svg {
+        fill: #38B232;
+        height: 30px;
+        float: left;
+        margin: 13px; }
+      .list-cards .card .card-header .card-header-name {
+        width: 50%;
+        float: left;
+        padding: 0 1%; }
+    .list-cards .card .card-body {
+      background-color: #FFFFFF;
+      color: black;
+      height: 120px;
+      padding: 2em;
+      border-radius: 0 0 10px 10px; }
+      .list-cards .card .card-body .card-picture {
+        width: 50px; }
+        @media (min-width: 768px) {
+          .list-cards .card .card-body .card-picture {
+            width: 120px; } }
+      .list-cards .card .card-body .card-body-picture {
+        width: 20%;
+        float: left;
+        height: 100%; }
+      .list-cards .card .card-body .card-body-information {
+        width: 75%;
+        float: left;
+        height: 100%;
+        margin: 0;
+        font-size: .8em; }
+        @media (min-width: 768px) {
+          .list-cards .card .card-body .card-body-information {
+            width: 45%;
+            font-size: 1em;
+            margin-right: 70px; } }
+      .list-cards .card .card-body .cash-container {
+        width: 100%;
+        float: left;
+        text-align: center; }
+        @media (min-width: 768px) {
+          .list-cards .card .card-body .cash-container {
+            width: 15%; } }
+        @media (min-width: 800px) {
+          .list-cards .card .card-body .cash-container {
+            width: 10%; } }
+        .list-cards .card .card-body .cash-container .card-body-price {
+          display: inline-block; }
+          @media (min-width: 768px) {
+            .list-cards .card .card-body .cash-container .card-body-price {
+              display: inline; } }
+          .list-cards .card .card-body .cash-container .card-body-price .card-body-cashback {
+            font-size: 1.3em; }
 
 body {
   max-width: 960px;
@@ -109,8 +141,5 @@ a {
   text-align: center;
   padding: 0.5em;
   font-size: 0.8em; }
-
-.list-cards {
-  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */

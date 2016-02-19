@@ -2,17 +2,15 @@
       <ul class="list-cards">
         <li class="card" ng-repeat="card in ctrl.cardList | orderBy: 'apr'">
           <div class="card-header" ng-click="ctrl.viewDetails(card)" >
-            <button class="card-header-chevron">
 
 <svg id="chevron-right" ng-show="ctrl.currentCard != card"viewBox="0 0 512 512"><path d="M298.3 256L131.1 81.9c-4.2-4.3-4.1-11.4.2-15.8l29.9-30.6c4.3-4.4 11.3-4.5 15.5-.2L380.9 248c2.2 2.2 3.2 5.2 3 8.1.1 3-.9 5.9-3 8.1L176.7 476.8c-4.2 4.3-11.2 4.2-15.5-.2L131.3 446c-4.3-4.4-4.4-11.5-.2-15.8L298.3 256z"/></svg>
 
 <svg id="chevron-down" ng-show="ctrl.currentCard == card" viewBox="0 0 512 512"><path d="M256 298.3l174.2-167.2c4.3-4.2 11.4-4.1 15.8.2l30.6 29.9c4.4 4.3 4.5 11.3.2 15.5L264.1 380.9c-2.2 2.2-5.2 3.2-8.1 3-3 .1-5.9-.9-8.1-3L35.2 176.7c-4.3-4.2-4.2-11.2.2-15.5L66 131.3c4.4-4.3 11.5-4.4 15.8-.2L256 298.3z"/></svg>
-            </button>
             <span class="card-header-name"><b>{{ card.name }}</b></span>
             <span class="card-header-apr"><b>{{ card.apr }}% APR</b></span>
           </div>
           <div class="card-body" ng-show="ctrl.currentCard == card">
-            <div class="card-body-picture"><img ng-src="images/{{card.code}}.png" alt="">{{ card.url }}</div>
+            <div class="card-body-picture"><img class="card-picture" ng-src="images/{{card.code}}.png" alt="">{{ card.url }}</div>
             <p class="card-body-information">{{ card.information }}</p>
             <div class="cash-container">
               <span class="card-body-cashback"><b>Cashback</b></span>
