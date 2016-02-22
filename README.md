@@ -6,6 +6,8 @@ Key technologies used: Angular, SASS, Karma, Jasmine, Protractor, Grunt and Trav
 ### Getting Started
 
 ```
+git clone https://github.com/matt-paul/credit-card-comparison
+cd credit-card-comparison
 npm install
 grunt
 ```
