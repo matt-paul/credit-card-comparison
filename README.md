@@ -5,11 +5,10 @@ Key technologies used: Angular, SASS, and Grunt.
 ### Getting Started
 
 1. Install dependencies
-```npm install```
+   npm install
 
 2. Run Grunt
-
-```grunt```
+   grunt
 
 3. Go to localhost:8080 in browser.
 
@@ -40,6 +39,10 @@ I used Sketch to export SVG's, prior to minifying them
 ### Screenshots
 
 [[https://github.com/matt-paul/credit-card-comparison/finished-screenshots%20/ctm-desktop.png]]
+
 [[https://github.com/matt-paul/credit-card-comparison/finished-screenshots%20/ctm-ipad.png]]
+
 [[https://github.com/matt-paul/credit-card-comparison/finished-screenshots%20/ctm-phone-menu-closed.png]]
+
 [[https://github.com/matt-paul/credit-card-comparison/finished-screenshots%20/ctm-phone-menu-open.png]]
+
