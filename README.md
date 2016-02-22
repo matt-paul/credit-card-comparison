@@ -42,7 +42,7 @@ I used Sketch to export SVG's, prior to minifying them
 
 ![ipad view](/finished%20screenshots/ctm-ipad.png)
 
-![phone-menu-closed](/finished%20screenshots/ctm-phone-menu-closed.png)
+![phone-menu-closed](/finished%20screenshots/ctm-phone-menu-closed.png =100px)
 
 ![phone-menu-open](/finished%20screenshots/ctm-phone-menu-open.png)
 
