@@ -5,13 +5,12 @@ Key technologies used: Angular, SASS, Karma, Jasmine, Protractor, Grunt and Trav
 
 ### Getting Started
 
-1. Install dependencies
-   ```npm install```
-
-2. Run 'Grunt'
- ```grunt```grunt
 ```
-3. Go to localhost:8080 in browser.
+npm install
+grunt
+```
+
+Go to localhost:8080 in browser.
 
 
 ## Considerations
