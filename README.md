@@ -8,6 +8,7 @@ Key technologies used: Angular, SASS, and Grunt.
 ```npm install```
 
 2. Run Grunt
+
 ```grunt```
 
 3. Go to localhost:8080 in browser.
