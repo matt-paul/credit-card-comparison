@@ -1,7 +1,7 @@
 ## Credit Card Comparison        
 [![Build Status](https://travis-ci.org/matt-paul/credit-card-comparison.svg?branch=master)](https://travis-ci.org/matt-paul/credit-card-comparison)
 
-Key technologies used: Angular, SASS, and Grunt.
+Key technologies used: Angular, SASS, Karma, Jasmine, Protractor, Grunt and Travis CI.
 
 ### Getting Started
 
