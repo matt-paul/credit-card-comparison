@@ -34,3 +34,11 @@ uneccesary information added by Sketch.
 Grunt has been used to compile SASS, run tests and start a simple http server.
 
 I used Sketch to export SVG's, prior to minifying them
+
+
+### Screenshots
+
+[[https://github.com/matt-paul/credit-card-comparison/finished-screenshots%20/ctm-desktop.png]]
+[[https://github.com/matt-paul/credit-card-comparison/finished-screenshots%20/ctm-ipad.png]]
+[[https://github.com/matt-paul/credit-card-comparison/finished-screenshots%20/ctm-phone-menu-closed.png]]
+[[https://github.com/matt-paul/credit-card-comparison/finished-screenshots%20/ctm-phone-menu-open.png]]
