@@ -15,7 +15,7 @@ Key technologies used: Angular, SASS, and Grunt.
 
 ## Considerations
 
-This project was based on a breif that is fairly similar to an area of the CTM website.
+This project was based on a brief that is fairly similar to an area of the CTM website.
 
 After learning more about current 'best practices', I have refactored to be
 'mobile first', in order to save bandwidth on mobile devices and speed up the user
