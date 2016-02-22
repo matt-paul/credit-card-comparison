@@ -1,11 +1,6 @@
 ## Credit Card Comparison
 Key technologies used: Angular, SASS, and Grunt.
 
-SVGO - Used to minify inline SVG's
-
-This site is currently being refactored to be 'mobile first' in order to fit in
-with current best practices, reducing the amount of data transfer that
-needs to take place on mobile networks, whilst speeding up user experience
 
 ### Getting Started
 
@@ -16,3 +11,24 @@ needs to take place on mobile networks, whilst speeding up user experience
 ```grunt```
 
 3. Go to localhost:8080 in browser.
+
+
+##Considerations
+
+This project was based on a breif that is fairly similar to an area of the CTM website.
+
+After learning more about current 'best practices', I have refactored to be
+'mobile first', in order to save bandwidth on mobile devices and speed up the user
+experience.
+
+I have tried to keep the naming of my SASS classes consistant and readable
+throughout.
+
+
+### Other Tools
+I have used SVGO to minify my inline SVG's, and increase readability, removing
+uneccesary information added by Sketch.
+
+Grunt has been used to compile SASS, run tests and start a simple http server.
+
+I used Sketch to export SVG's, prior to minifying them
