@@ -10,7 +10,7 @@ Key technologies used: Angular, SASS, Karma, Jasmine, Protractor, Grunt and Trav
 
 2. Run 'Grunt'
  ```grunt```
-
+```
 3. Go to localhost:8080 in browser.
 
 
