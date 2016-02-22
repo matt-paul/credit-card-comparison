@@ -58,7 +58,8 @@ header ul {
       .horizontal-menu .nav-item {
         padding: 10px 0; } }
   .horizontal-menu .nav-item-icon {
-    margin-right: 10px; }
+    margin-right: 10px;
+    width: 20%; }
   .horizontal-menu #home {
     flex-grow: 0.5;
     background: black; }
@@ -83,7 +84,9 @@ header ul {
       .list-cards .card .card-header .card-header-name {
         width: 50%;
         float: left;
-        padding: 0 1%; }
+        padding: 0 1%;
+        text-align: left;
+        margin-left: 5%; }
     .list-cards .card .card-body {
       background-color: #FFFFFF;
       color: black;
@@ -107,9 +110,13 @@ header ul {
         font-size: .8em; }
         @media (min-width: 768px) {
           .list-cards .card .card-body .card-body-information {
+            padding-left: 20px;
             width: 45%;
             font-size: 1em;
             margin-right: 70px; } }
+        @media (min-width: 800px) {
+          .list-cards .card .card-body .card-body-information {
+            margin-right: 100px; } }
       .list-cards .card .card-body .cash-container {
         width: 100%;
         float: left;
@@ -124,7 +131,8 @@ header ul {
           display: inline-block; }
           @media (min-width: 768px) {
             .list-cards .card .card-body .cash-container .card-body-price {
-              display: inline; } }
+              display: inline;
+              font-size: 1.8em; } }
           .list-cards .card .card-body .cash-container .card-body-price .card-body-cashback {
             font-size: 1.3em; }
 

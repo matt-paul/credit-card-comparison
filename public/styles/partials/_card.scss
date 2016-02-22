@@ -24,6 +24,8 @@
         width: 50%;
         float: left;
         padding: 0 1%;
+        text-align: left;
+        margin-left: 5%;
       }
     }
 
@@ -56,9 +58,13 @@
         margin: 0;
         font-size: .8em;
         @media(min-width: $ipad-width) {
+          padding-left: 20px;
           width: 45%;
           font-size: 1em;
           margin-right: 70px;
+        }
+        @media(min-width: $desktop-width) {
+          margin-right: 100px;
         }
       }
 
@@ -77,6 +83,7 @@
           display:inline-block;
           @media(min-width: $ipad-width) {
             display: inline;
+            font-size: 1.8em;
           }
 
         .card-body-cashback {
