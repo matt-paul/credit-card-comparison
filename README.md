@@ -40,9 +40,9 @@ I used Sketch to export SVG's, prior to minifying them
 
 ![desktop view](/finished%20screenshots/ctm-desktop.png)
 
-[[https://github.com/matt-paul/credit-card-comparison/blob/master/finished%20screenshots/ctm-ipad.png]]
+![ipad view](/finished%20screenshots/ctm-ipad.png)
 
-[[https://github.com/matt-paul/credit-card-comparison/blob/master/finished%20screenshots/ctm-phone-menu-closed.png]]
+![phone-menu-closed](/finished%20screenshots/ctm-phone-menu-closed.png)
 
-[[https://github.com/matt-paul/credit-card-comparison/blob/master/finished%20screenshots/ctm-phone-menu-open.png]]
+![phone-menu-open](/finished%20screenshots/ctm-phone-menu-open.png)
 
