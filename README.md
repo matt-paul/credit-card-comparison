@@ -38,7 +38,7 @@ I used Sketch to export SVG's, prior to minifying them
 
 ### Screenshots
 
-[[https://github.com/matt-paul/credit-card-comparison/blob/master/finished%20screenshots/ctm-desktop.png]]
+(finished%20screenshots/ctm-desktop.png)
 
 [[https://github.com/matt-paul/credit-card-comparison/blob/master/finished%20screenshots/ctm-ipad.png]]
 
