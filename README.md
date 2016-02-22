@@ -38,11 +38,11 @@ I used Sketch to export SVG's, prior to minifying them
 
 ### Screenshots
 
-[[https://github.com/matt-paul/credit-card-comparison/finished-screenshots%20/ctm-desktop.png]]
+[[https://github.com/matt-paul/credit-card-comparison/blob/master/finished%20screenshots/ctm-desktop.png]]
 
-[[https://github.com/matt-paul/credit-card-comparison/finished-screenshots%20/ctm-ipad.png]]
+[[https://github.com/matt-paul/credit-card-comparison/blob/master/finished%20screenshots/ctm-ipad.png]]
 
-[[https://github.com/matt-paul/credit-card-comparison/finished-screenshots%20/ctm-phone-menu-closed.png]]
+[[https://github.com/matt-paul/credit-card-comparison/blob/master/finished%20screenshots/ctm-phone-menu-closed.png]]
 
-[[https://github.com/matt-paul/credit-card-comparison/finished-screenshots%20/ctm-phone-menu-open.png]]
+[[https://github.com/matt-paul/credit-card-comparison/blob/master/finished%20screenshots/ctm-phone-menu-open.png]]
 
