@@ -3,7 +3,7 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "karma start karma.conf.js"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.9",
