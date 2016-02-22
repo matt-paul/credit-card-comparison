@@ -2,6 +2,9 @@
   "engines": {
     "node": ">= 0.10.0"
   },
+  "scripts": {
+    "test": "grunt test"
+  },
   "devDependencies": {
     "angular-mocks": "^1.4.9",
     "grunt": "~0.4.5",
