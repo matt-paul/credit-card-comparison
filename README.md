@@ -31,7 +31,7 @@ throughout.
 
 ### Other Tools
 I have used SVGO to minify my inline SVG's, and increase readability, removing
-uneccesary information added by Sketch.
+unnecessary information added by Sketch.
 
 Grunt has been used to compile SASS, run tests and start a simple http server.
 
