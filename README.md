@@ -25,7 +25,7 @@ experience.
 
 Media query breakpoints were set for ipad and desktop computer device widths.
 
-I have tried to keep the naming of my SASS classes consistant and readable
+I have tried to keep the naming of my SASS classes consistent and readable
 throughout.
 
 
